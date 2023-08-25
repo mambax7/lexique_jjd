@@ -1,0 +1,275 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.CompileOnBackground=0
+Compilator.ProgSaveAll=0
+Compilator.ProgRunSelection=0
+Compilator.LogType=0
+Compilator.LogEncoding=0
+DefaultDir=D:\_JJD_Workspace\WampSites\xoops2511bfr\modules\lexique
+DefaultCP=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+HTServer=localhost
+Extensions=*.*
+[Project tree]
+_lexique
+	+lexique
+		+admin
+			admin\about.php
+			admin\clone.php
+			admin\feedback.php
+			admin\footer.php
+			admin\header.php
+			admin\index.php
+			admin\lex__datatypes.php
+			admin\lex__items.php
+			admin\lex__labels.php
+			admin\lex__lists.php
+			admin\lex__params.php
+			admin\lex__params_new.php
+			admin\lex__propertys.php
+			admin\lex__terms.php
+			admin\lex__terms_save.php
+			admin\lex__values.php
+			admin\menu.php
+			admin\permissions.php
+			admin\traitements.php
+		-assets
+			+css
+				-admin
+					assets\css\admin\index.php
+					assets\css\admin\style.css
+				assets\css\index.php
+				assets\css\style.css
+				assets\css\separators.css
+			-icons
+				-16
+					assets\icons\16\index.php
+					assets\icons\16\status0.png
+					assets\icons\16\status1.png
+					assets\icons\16\status2.png
+					assets\icons\16\status3.png
+					assets\icons\16\status4.png
+				-32
+					assets\icons\32\blank.gif
+					assets\icons\32\broken.png
+					assets\icons\32\index.php
+				assets\icons\index.php
+			-images
+				assets\images\blank.gif
+				assets\images\blank.png
+				assets\images\index.php
+				assets\images\logoModule.png
+				assets\images\tdmxoops_logo.png
+			+js
+				assets\js\functions.js
+				assets\js\index.php
+			assets\index.php
+		-blocks
+			blocks\index.php
+		+class
+			-Common
+				class\Common\Breadcrumb.php
+				class\Common\Configurator.php
+				class\Common\Confirm.php
+				class\Common\DirectoryChecker.php
+				class\Common\FileChecker.php
+				class\Common\FilesManagement.php
+				class\Common\Migrate.php
+				class\Common\ModuleFeedback.php
+				class\Common\ModuleStats.php
+				class\Common\Resizer.php
+				class\Common\ServerStats.php
+				class\Common\SysUtility.php
+				class\Common\VersionChecks.php
+			class\Constants.php
+			class\Helper.php
+			class\index.php
+			class\Lex__datatypes.php
+			class\Lex__datatypesHandler.php
+			class\Lex__items.php
+			class\Lex__itemsHandler.php
+			class\Lex__labels.php
+			class\Lex__labelsHandler.php
+			class\Lex__lists.php
+			class\Lex__listsHandler.php
+			class\Lex__params.php
+			class\Lex__paramsHandler.php
+			class\Lex__propertys.php
+			class\Lex__propertysHandler.php
+			class\Lex__terms.php
+			class\Lex__termsHandler.php
+			class\Lex__values.php
+			class\Lex__valuesHandler.php
+			class\Permissions.php
+			class\PermissionsHandler.php
+			class\Utility.php
+			class\Lex__adoHandler.php
+			class\uploader.php
+		-config
+			config\admin.yml
+			config\config.php
+			config\icons.php
+			config\index.php
+			config\paths.php
+		-docs
+			docs\changelog.txt
+			docs\credits.txt
+			docs\index.php
+			docs\install.txt
+			docs\lang.diff
+			docs\license.txt
+			docs\readme.txt
+			docs\todo.txt
+		+include
+			include\comment_functions.php
+			include\common.php
+			include\functions.php
+			include\index.php
+			include\install.php
+			include\search.inc.php
+			include\uninstall.php
+			include\update.php
+			include\xoops_version.inc.php
+			include\common_header.php
+		-language
+			-english
+				-help
+					language\english\help\help.html
+					language\english\help\index.php
+				language\english\admin.php
+				language\english\common.php
+				language\english\feedback.php
+				language\english\index.php
+				language\english\main.php
+				language\english\modinfo.php
+			+french
+				-help
+					language\french\help\help.html
+					language\french\help\index.php
+				language\french\admin.php
+				language\french\common.php
+				language\french\feedback.php
+				language\french\index.php
+				language\french\main.php
+				language\french\modinfo.php
+			language\index.php
+		-preloads
+			preloads\autoloader.php
+			preloads\core.php
+			preloads\index.php
+		+sql
+			sql\index.php
+			sql\lexique-v300-2023-08-01a.sql
+			sql\mysql.sql
+			sql\querys2uninstall.sql
+			sql\querys2install.sql
+			sql\querys2test.sql
+		-templates
+			+admin
+				templates\admin\index.php
+				templates\admin\lexique_admin_about.tpl
+				templates\admin\lexique_admin_clone.tpl
+				templates\admin\lexique_admin_footer.tpl
+				templates\admin\lexique_admin_header.tpl
+				templates\admin\lexique_admin_index.tpl
+				templates\admin\lexique_admin_lex__datatypes.tpl
+				templates\admin\lexique_admin_lex__items.tpl
+				templates\admin\lexique_admin_lex__labels.tpl
+				templates\admin\lexique_admin_lex__lists.tpl
+				templates\admin\lexique_admin_lex__params.tpl
+				templates\admin\lexique_admin_lex__propertys.tpl
+				templates\admin\lexique_admin_lex__terms.tpl
+				templates\admin\lexique_admin_lex__values.tpl
+				templates\admin\lexique_admin_permissions.tpl
+			templates\index.php
+			templates\lexique_breadcrumbs.tpl
+			templates\lexique_footer.tpl
+			templates\lexique_header.tpl
+			templates\lexique_index.tpl
+			templates\lexique_lex__datatypes.tpl
+			templates\lexique_lex__datatypes_item.tpl
+			templates\lexique_lex__datatypes_list.tpl
+			templates\lexique_lex__items.tpl
+			templates\lexique_lex__items_item.tpl
+			templates\lexique_lex__items_list.tpl
+			templates\lexique_lex__labels.tpl
+			templates\lexique_lex__labels_item.tpl
+			templates\lexique_lex__labels_list.tpl
+			templates\lexique_lex__lists.tpl
+			templates\lexique_lex__lists_item.tpl
+			templates\lexique_lex__lists_list.tpl
+			templates\lexique_lex__params.tpl
+			templates\lexique_lex__params_item.tpl
+			templates\lexique_lex__params_list.tpl
+			templates\lexique_lex__propertys.tpl
+			templates\lexique_lex__propertys_item.tpl
+			templates\lexique_lex__propertys_list.tpl
+			templates\lexique_lex__terms.tpl
+			templates\lexique_lex__terms_item.tpl
+			templates\lexique_lex__terms_list.tpl
+			templates\lexique_lex__values.tpl
+			templates\lexique_lex__values_item.tpl
+			templates\lexique_lex__values_list.tpl
+		-testdata
+			-english
+			-french
+			-images
+				testdata\images\blank.gif
+				testdata\images\blank.png
+			testdata\index.php
+		.gitattributes
+		.gitignore
+		.scrutinizer.yml
+		_lexique.ppr
+		comment_delete.php
+		comment_edit.php
+		comment_post.php
+		comment_reply.php
+		footer.php
+		header.php
+		index.php
+		lex__items.php
+		lex__labels.php
+		lex__lists.php
+		lex__params.php
+		lex__propertys.php
+		lex__terms.php
+		lex__values.php
+		xoops_version.php
+[Open project files]
+0=include\functions.php
+1=sql\mysql.sql
+2=xoops_version.php
+3=class\Lex__terms.php
+4=class\Lex__params.php
+5=language\french\admin.php
+6=language\english\admin.php
+[Selected Project Files]
+Main=
+Selected=language\french\admin.php
+[include\functions.php]
+TopLine=23
+Caret=47,27
+[sql\mysql.sql]
+TopLine=120
+Caret=29,136
+[xoops_version.php]
+TopLine=6
+Caret=93,127
+[class\Lex__terms.php]
+TopLine=223
+Caret=64,243
+[class\Lex__params.php]
+TopLine=313
+Caret=1,321
+[language\french\admin.php]
+TopLine=287
+Caret=38,301
+[language\english\admin.php]
+TopLine=163
+Caret=1,178

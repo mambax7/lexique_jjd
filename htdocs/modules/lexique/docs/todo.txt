@@ -1,0 +1,176 @@
+==============================================================
+$filsArr = array();
+foreach ($_FILES['pptval'] AS $att=>$pptIdArr) {
+    foreach ($pptIdArr AS $pptId=>$valuesArr) { 
+        foreach ($valuesArr AS $item=>$indexArr) { 
+        foreach ($indexArr AS $index=>$v) { 
+            $key = "f-{$pptId}-{$index}";
+            $filsArr[$key][$att] = $v;
+        }}
+
+    } 
+}
+
+========= resultat ==================
+
+Array
+(
+    [f-121-1] => Array
+        (
+            [name] => Makotoscat2.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\wamp64\tmp\phpD6B.tmp
+            [error] => 0
+            [size] => 57075
+        )
+
+    [f-121-2] => Array
+        (
+            [name] => Makotoscat2.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\wamp64\tmp\phpD6C.tmp
+            [error] => 0
+            [size] => 57075
+        )
+
+    [f-121-3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [f-116-1] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [f-116-2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+//--------------------------------------------------
+Array
+(
+    [pptval] => Array
+        (
+            [name] => Array
+                (
+                    [121] => Array
+                        (
+                            [value] => Array
+                                (
+                                    [1] => Makotoscat.jpg
+                                    [2] => Makotoscat2.jpg
+                                    [3] => 
+                                )
+                        )
+
+                    [116] => Array
+                        (
+                            [value] => Array
+                                (
+                                    [1] => Makotoscat3.jpg
+                                    [2] => 
+                                )
+                        )
+                )
+
+            [type] => Array
+                (
+                    [121] => Array
+                        (
+                            [value] => Array
+                                (
+                                    [1] => image/jpeg
+                                    [2] => image/jpeg
+                                    [3] => 
+                                )
+                        )
+                    [116] => Array
+                        (
+                            [value] => Array
+                                (
+                                    [1] => image/jpeg
+                                    [2] => 
+                                )
+                        )
+                )
+            [tmp_name] => Array
+                (
+                    [121] => Array
+                        (
+                            [value] => Array
+                                (
+                                    [1] => C:\wamp64\tmp\php1336.tmp
+                                    [2] => C:\wamp64\tmp\php1356.tmp
+                                    [3] => 
+                                )
+                        )
+
+                    [116] => Array
+                        (
+                            [value] => Array
+                                (
+                                    [1] => C:\wamp64\tmp\php1357.tmp
+                                    [2] => 
+                                )
+                        )
+                )
+            [error] => Array
+                (
+                    [121] => Array
+                        (
+                            [value] => Array
+                                (
+                                    [1] => 0
+                                    [2] => 0
+                                    [3] => 4
+                                )
+                        )
+                    [116] => Array
+                        (
+                            [value] => Array
+                                (
+                                    [1] => 0
+                                    [2] => 4
+                                )
+                        )
+                )
+            [size] => Array
+                (
+                    [121] => Array
+                        (
+                            [value] => Array
+                                (
+                                    [1] => 61480
+                                    [2] => 57075
+                                    [3] => 0
+                                )
+                        )
+                    [116] => Array
+                        (
+                            [value] => Array
+                                (
+                                    [1] => 52559
+                                    [2] => 0
+                                )
+                        )
+                )
+        )
+)
+==============================================================
+ 

@@ -1,0 +1,1586 @@
+/*  color_set  */
+
+hr.default-hr-style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #BFBFBF, #808080, #ccc);
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.default-hr-style-two {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(191, 191, 191, 0), rgba(128, 128, 128, 0.75), rgba(191, 191, 191, 0));
+}
+
+/* Double-color dashed line */
+
+hr.default-hr-style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #808080;
+}
+
+/* Single-direction drop shadow */
+
+hr.default-hr-style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(128, 128, 128, 0.5);
+}
+
+/* Cloud */
+
+hr.default-hr-style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #808080;
+}
+hr.default-hr-style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+/* Inset, by Dan Eden */
+
+hr.default-hr-style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(128, 128, 128, 0.1);
+    border-bottom: 1px solid rgba(191, 191, 191, 0.3);
+}
+
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.default-hr-style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #808080;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.default-hr-style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #808080;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.default-hr-style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #808080;
+    color: #808080;
+    text-align: center;
+}
+hr.default-hr-style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #BFBFBF;
+}
+/*------------------------------------------------------------*/
+
+hr.grey1-hr-style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #BFBFBF, #808080, #ccc);
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.grey1-hr-style-two {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(191, 191, 191, 0), rgba(128, 128, 128, 0.75), rgba(191, 191, 191, 0));
+}
+
+/* Double-color dashed line */
+
+hr.grey1-hr-style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #808080;
+}
+
+/* Single-direction drop shadow */
+
+hr.grey1-hr-style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(128, 128, 128, 0.5);
+}
+
+/* Cloud */
+
+hr.grey1-hr-style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #808080;
+}
+hr.grey1-hr-style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+/* Inset, by Dan Eden */
+
+hr.grey1-hr-style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(128, 128, 128, 0.1);
+    border-bottom: 1px solid rgba(191, 191, 191, 0.3);
+}
+
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.grey1-hr-style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #808080;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.grey1-hr-style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #808080;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.grey1-hr-style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #808080;
+    color: #808080;
+    text-align: center;
+}
+hr.grey1-hr-style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #BFBFBF;
+}
+/*------------------------------------------------------------*/
+
+hr.blue-hr-style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #B6CDE4, #548AC3, #ccc);
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.blue-hr-style-two {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(182, 205, 228, 0), rgba(84, 138, 195, 0.75), rgba(182, 205, 228, 0));
+}
+
+/* Double-color dashed line */
+
+hr.blue-hr-style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #548AC3;
+}
+
+/* Single-direction drop shadow */
+
+hr.blue-hr-style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(84, 138, 195, 0.5);
+}
+
+/* Cloud */
+
+hr.blue-hr-style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #548AC3;
+}
+hr.blue-hr-style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+/* Inset, by Dan Eden */
+
+hr.blue-hr-style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(84, 138, 195, 0.1);
+    border-bottom: 1px solid rgba(182, 205, 228, 0.3);
+}
+
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.blue-hr-style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #548AC3;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.blue-hr-style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #548AC3;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.blue-hr-style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #548AC3;
+    color: #548AC3;
+    text-align: center;
+}
+hr.blue-hr-style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #B6CDE4;
+}
+/*------------------------------------------------------------*/
+hr.blue2-hr-style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #8EA9DB, #305496, #ccc);
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.blue2-hr-style-two {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(142, 169, 219, 0), rgba(48, 84, 150, 0.75), rgba(142, 169, 219, 0));
+}
+
+/* Double-color dashed line */
+
+hr.blue2-hr-style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #305496;
+}
+
+/* Single-direction drop shadow */
+
+hr.blue2-hr-style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(48, 84, 150, 0.5);
+}
+
+/* Cloud */
+
+hr.blue2-hr-style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #305496;
+}
+hr.blue2-hr-style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+/* Inset, by Dan Eden */
+
+hr.blue2-hr-style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(48, 84, 150, 0.1);
+    border-bottom: 1px solid rgba(142, 169, 219, 0.3);
+}
+
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.blue2-hr-style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #305496;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.blue2-hr-style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #305496;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.blue2-hr-style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #305496;
+    color: #305496;
+    text-align: center;
+}
+hr.blue2-hr-style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #8EA9DB;
+}
+/*------------------------------------------------------------*/
+hr.green-hr-style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #98E0AD, #22B14C, #ccc);
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.green-hr-style-two {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(152, 224, 173, 0), rgba(34, 177, 76, 0.75), rgba(152, 224, 173, 0));
+}
+
+/* Double-color dashed line */
+
+hr.green-hr-style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #22B14C;
+}
+
+/* Single-direction drop shadow */
+
+hr.green-hr-style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(34, 177, 76, 0.5);
+}
+
+/* Cloud */
+
+hr.green-hr-style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #22B14C;
+}
+hr.green-hr-style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+/* Inset, by Dan Eden */
+
+hr.green-hr-style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(34, 177, 76, 0.1);
+    border-bottom: 1px solid rgba(152, 224, 173, 0.3);
+}
+
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.green-hr-style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #22B14C;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.green-hr-style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #22B14C;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.green-hr-style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #22B14C;
+    color: #22B14C;
+    text-align: center;
+}
+hr.green-hr-style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #98E0AD;
+}
+/*------------------------------------------------------------*/
+hr.green2-hr-style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #A9D08E, #008000, #ccc);
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.green2-hr-style-two {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(169, 208, 142, 0), rgba(0, 128, 0, 0.75), rgba(169, 208, 142, 0));
+}
+
+/* Double-color dashed line */
+
+hr.green2-hr-style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #008000;
+}
+
+/* Single-direction drop shadow */
+
+hr.green2-hr-style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 128, 0, 0.5);
+}
+
+/* Cloud */
+
+hr.green2-hr-style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #008000;
+}
+hr.green2-hr-style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+/* Inset, by Dan Eden */
+
+hr.green2-hr-style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 128, 0, 0.1);
+    border-bottom: 1px solid rgba(169, 208, 142, 0.3);
+}
+
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.green2-hr-style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #008000;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.green2-hr-style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #008000;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.green2-hr-style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #008000;
+    color: #008000;
+    text-align: center;
+}
+hr.green2-hr-style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #A9D08E;
+}
+/*------------------------------------------------------------*/
+hr.purple-hr-style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #C785C8, #7A297B, #ccc);
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.purple-hr-style-two {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(199, 133, 200, 0), rgba(122, 41, 123, 0.75), rgba(199, 133, 200, 0));
+}
+
+/* Double-color dashed line */
+
+hr.purple-hr-style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #7A297B;
+}
+
+/* Single-direction drop shadow */
+
+hr.purple-hr-style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(122, 41, 123, 0.5);
+}
+
+/* Cloud */
+
+hr.purple-hr-style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #7A297B;
+}
+hr.purple-hr-style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+/* Inset, by Dan Eden */
+
+hr.purple-hr-style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(122, 41, 123, 0.1);
+    border-bottom: 1px solid rgba(199, 133, 200, 0.3);
+}
+
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.purple-hr-style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #7A297B;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.purple-hr-style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #7A297B;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.purple-hr-style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #7A297B;
+    color: #7A297B;
+    text-align: center;
+}
+hr.purple-hr-style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #C785C8;
+}
+/*------------------------------------------------------------*/
+hr.purple2-hr-style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #CC99FF, #6600FF, #ccc);
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.purple2-hr-style-two {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(204, 153, 255, 0), rgba(102, 0, 255, 0.75), rgba(204, 153, 255, 0));
+}
+
+/* Double-color dashed line */
+
+hr.purple2-hr-style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #6600FF;
+}
+
+/* Single-direction drop shadow */
+
+hr.purple2-hr-style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(102, 0, 255, 0.5);
+}
+
+/* Cloud */
+
+hr.purple2-hr-style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #6600FF;
+}
+hr.purple2-hr-style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+/* Inset, by Dan Eden */
+
+hr.purple2-hr-style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(102, 0, 255, 0.1);
+    border-bottom: 1px solid rgba(204, 153, 255, 0.3);
+}
+
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.purple2-hr-style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #6600FF;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.purple2-hr-style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #6600FF;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.purple2-hr-style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #6600FF;
+    color: #6600FF;
+    text-align: center;
+}
+hr.purple2-hr-style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #CC99FF;
+}
+/*------------------------------------------------------------*/
+hr.red-hr-style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #F47378, #B21016, #ccc);
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.red-hr-style-two {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(244, 115, 120, 0), rgba(178, 16, 22, 0.75), rgba(244, 115, 120, 0));
+}
+
+/* Double-color dashed line */
+
+hr.red-hr-style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #B21016;
+}
+
+/* Single-direction drop shadow */
+
+hr.red-hr-style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(178, 16, 22, 0.5);
+}
+
+/* Cloud */
+
+hr.red-hr-style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #B21016;
+}
+hr.red-hr-style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+/* Inset, by Dan Eden */
+
+hr.red-hr-style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(178, 16, 22, 0.1);
+    border-bottom: 1px solid rgba(244, 115, 120, 0.3);
+}
+
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.red-hr-style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #B21016;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.red-hr-style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #B21016;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.red-hr-style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #B21016;
+    color: #B21016;
+    text-align: center;
+}
+hr.red-hr-style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #F47378;
+}
+/*------------------------------------------------------------*/
+hr.red2-hr-style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #FF5050, #CC0000, #ccc);
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.red2-hr-style-two {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(255, 80, 80, 0), rgba(204, 0, 0, 0.75), rgba(255, 80, 80, 0));
+}
+
+/* Double-color dashed line */
+
+hr.red2-hr-style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #CC0000;
+}
+
+/* Single-direction drop shadow */
+
+hr.red2-hr-style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(204, 0, 0, 0.5);
+}
+
+/* Cloud */
+
+hr.red2-hr-style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #CC0000;
+}
+hr.red2-hr-style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+/* Inset, by Dan Eden */
+
+hr.red2-hr-style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(204, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 80, 80, 0.3);
+}
+
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.red2-hr-style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #CC0000;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.red2-hr-style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #CC0000;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.red2-hr-style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #CC0000;
+    color: #CC0000;
+    text-align: center;
+}
+hr.red2-hr-style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #FF5050;
+}
+/*------------------------------------------------------------*/
+hr.saumon-hr-style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #FFB27D, #BF5B16, #ccc);
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.saumon-hr-style-two {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(255, 178, 125, 0), rgba(191, 91, 22, 0.75), rgba(255, 178, 125, 0));
+}
+
+/* Double-color dashed line */
+
+hr.saumon-hr-style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #BF5B16;
+}
+
+/* Single-direction drop shadow */
+
+hr.saumon-hr-style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(191, 91, 22, 0.5);
+}
+
+/* Cloud */
+
+hr.saumon-hr-style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #BF5B16;
+}
+hr.saumon-hr-style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+/* Inset, by Dan Eden */
+
+hr.saumon-hr-style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(191, 91, 22, 0.1);
+    border-bottom: 1px solid rgba(255, 178, 125, 0.3);
+}
+
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.saumon-hr-style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #BF5B16;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.saumon-hr-style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #BF5B16;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.saumon-hr-style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #BF5B16;
+    color: #BF5B16;
+    text-align: center;
+}
+hr.saumon-hr-style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #FFB27D;
+}
+/*------------------------------------------------------------*/
+hr.saumon2-hr-style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #FFD966, #BF8F00, #ccc);
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.saumon2-hr-style-two {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(255, 217, 102, 0), rgba(191, 143, 0, 0.75), rgba(255, 217, 102, 0));
+}
+
+/* Double-color dashed line */
+
+hr.saumon2-hr-style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #BF8F00;
+}
+
+/* Single-direction drop shadow */
+
+hr.saumon2-hr-style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(191, 143, 0, 0.5);
+}
+
+/* Cloud */
+
+hr.saumon2-hr-style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #BF8F00;
+}
+hr.saumon2-hr-style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+/* Inset, by Dan Eden */
+
+hr.saumon2-hr-style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(191, 143, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 217, 102, 0.3);
+}
+
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.saumon2-hr-style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #BF8F00;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.saumon2-hr-style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #BF8F00;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.saumon2-hr-style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #BF8F00;
+    color: #BF8F00;
+    text-align: center;
+}
+hr.saumon2-hr-style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #FFD966;
+}
+/*------------------------------------------------------------*/
+hr.yellow-hr-style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #FFF766, #BFB500, #ccc);
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.yellow-hr-style-two {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(255, 247, 102, 0), rgba(191, 181, 0, 0.75), rgba(255, 247, 102, 0));
+}
+
+/* Double-color dashed line */
+
+hr.yellow-hr-style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #BFB500;
+}
+
+/* Single-direction drop shadow */
+
+hr.yellow-hr-style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(191, 181, 0, 0.5);
+}
+
+/* Cloud */
+
+hr.yellow-hr-style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #BFB500;
+}
+hr.yellow-hr-style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+/* Inset, by Dan Eden */
+
+hr.yellow-hr-style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(191, 181, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 247, 102, 0.3);
+}
+
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.yellow-hr-style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #BFB500;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.yellow-hr-style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #BFB500;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.yellow-hr-style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #BFB500;
+    color: #BFB500;
+    text-align: center;
+}
+hr.yellow-hr-style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #FFF766;
+}
+/*------------------------------------------------------------*/
+hr.yellow2-hr-style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #FFFF00, #CCCC00, #ccc);
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.yellow2-hr-style-two {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(255, 255, 0, 0), rgba(204, 204, 0, 0.75), rgba(255, 255, 0, 0));
+}
+
+/* Double-color dashed line */
+
+hr.yellow2-hr-style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #CCCC00;
+}
+
+/* Single-direction drop shadow */
+
+hr.yellow2-hr-style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(204, 204, 0, 0.5);
+}
+
+/* Cloud */
+
+hr.yellow2-hr-style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #CCCC00;
+}
+hr.yellow2-hr-style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+/* Inset, by Dan Eden */
+
+hr.yellow2-hr-style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(204, 204, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 0, 0.3);
+}
+
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.yellow2-hr-style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #CCCC00;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.yellow2-hr-style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #CCCC00;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.yellow2-hr-style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #CCCC00;
+    color: #CCCC00;
+    text-align: center;
+}
+hr.yellow2-hr-style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #FFFF00;
+}
+/*------------------------------------------------------------*/
+hr.braun2-hr-style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #F4B084, #C65911, #ccc);
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.braun2-hr-style-two {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(244, 176, 132, 0), rgba(198, 89, 17, 0.75), rgba(244, 176, 132, 0));
+}
+
+/* Double-color dashed line */
+
+hr.braun2-hr-style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #C65911;
+}
+
+/* Single-direction drop shadow */
+
+hr.braun2-hr-style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(198, 89, 17, 0.5);
+}
+
+/* Cloud */
+
+hr.braun2-hr-style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #C65911;
+}
+hr.braun2-hr-style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+/* Inset, by Dan Eden */
+
+hr.braun2-hr-style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(198, 89, 17, 0.1);
+    border-bottom: 1px solid rgba(244, 176, 132, 0.3);
+}
+
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.braun2-hr-style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #C65911;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.braun2-hr-style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #C65911;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.braun2-hr-style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #C65911;
+    color: #C65911;
+    text-align: center;
+}
+hr.braun2-hr-style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #F4B084;
+}
+/*------------------------------------------------------------*/
+hr.France-hr-style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #3366FF, #0033CC, #ccc);
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.France-hr-style-two {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(51, 102, 255, 0), rgba(0, 51, 204, 0.75), rgba(51, 102, 255, 0));
+}
+
+/* Double-color dashed line */
+
+hr.France-hr-style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #0033CC;
+}
+
+/* Single-direction drop shadow */
+
+hr.France-hr-style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 51, 204, 0.5);
+}
+
+/* Cloud */
+
+hr.France-hr-style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #0033CC;
+}
+hr.France-hr-style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+/* Inset, by Dan Eden */
+
+hr.France-hr-style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 51, 204, 0.1);
+    border-bottom: 1px solid rgba(51, 102, 255, 0.3);
+}
+
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.France-hr-style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #0033CC;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.France-hr-style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #0033CC;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.France-hr-style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #0033CC;
+    color: #0033CC;
+    text-align: center;
+}
+hr.France-hr-style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #3366FF;
+}
+/*------------------------------------------------------------*/
+hr.allBlack-hr-style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #DDDDDD, #000000, #ccc);
+}
+
+/* Gradient transparent - color - transparent */
+
+hr.allBlack-hr-style-two {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(221, 221, 221, 0), rgba(0, 0, 0, 0.75), rgba(221, 221, 221, 0));
+}
+
+/* Double-color dashed line */
+
+hr.allBlack-hr-style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #000000;
+}
+
+/* Single-direction drop shadow */
+
+hr.allBlack-hr-style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+/* Cloud */
+
+hr.allBlack-hr-style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px #000000;
+}
+hr.allBlack-hr-style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+/* Inset, by Dan Eden */
+
+hr.allBlack-hr-style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(221, 221, 221, 0.3);
+}
+
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.allBlack-hr-style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.allBlack-hr-style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+/* Glyph, by Harry Roberts */
+
+hr.allBlack-hr-style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #000000;
+    color: #000000;
+    text-align: center;
+}
+hr.allBlack-hr-style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #DDDDDD;
+}
+/*------------------------------------------------------------*/
+
