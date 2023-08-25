@@ -1,0 +1,2 @@
+# lexique
+ module pour Xoops
