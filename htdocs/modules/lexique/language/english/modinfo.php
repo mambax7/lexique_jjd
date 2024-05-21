@@ -40,7 +40,7 @@ require_once __DIR__ . '/common.php';
 \define('_MI_LEXIQUE_ADMENU9', "Permissions");
 \define('_MI_LEXIQUE_ADMENU10', "Clone");
 \define('_MI_LEXIQUE_ADMENU11', "Feedback");
-\define('_MI_LEXIQUE_ADMENU12', "Types de données");
+\define('_MI_LEXIQUE_ADMENU12', "Types de donnÃ©es");
 \define('_MI_LEXIQUE_ABOUT', "About");
 // ---------------- Admin Nav ----------------
 \define('_MI_LEXIQUE_ADMIN_PAGER', "Admin pager");

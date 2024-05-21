@@ -56,7 +56,7 @@ $boxName  = \_AM_LEXIQUE_TOOLS;
 $adminObject->addInfoBox($boxName);
       $traitaments = array(
         array('caption'=>'Global:', ),
-        array('op'=>'rebuild_requetes',           'params'=>'', 'caption'=>'Reconstruction des requêtes de la base'),
+        array('op'=>'rebuild_requetes',           'params'=>'', 'caption'=>'Reconstruction des requÃªtes de la base'),
 
         array('caption'=>'Info Xoops:'),
         array('op'=>'xModule',                    'params'=>'', 'caption'=>'Contenu de xoopsModule'),

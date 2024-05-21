@@ -183,7 +183,7 @@ class Lex__datatypes extends \XoopsObject
             $tTypes = array('maxlen'=>80,'minlen'=>0);
             break;
         }
-    //a garder au cas ou mais le champs attributs n'est pas une bonne optin en cas de mse à jor des attributs
+    //a garder au cas ou mais le champs attributs n'est pas une bonne optin en cas de mse Ã  jor des attributs
     //$tTypes = unserialize(html_entity_decode( $this->getVar('dtype_attributs')));
         //----------------------------
        

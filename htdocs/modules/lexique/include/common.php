@@ -52,7 +52,7 @@ $copyright = "<a href='https://oritheque.fr' title='Oritheque' target='_blank'><
 require_once \XOOPS_ROOT_PATH . '/class/xoopsrequest.php';
 require_once \LEXIQUE_PATH . '/include/functions.php';
 
-//Type de données pour les proprietes
+//Type de donnÃ©es pour les proprietes
 \define('LEXIQUE_TYPE_STRING', 0);    
 \define('LEXIQUE_TYPE_NUM', 1);    
 \define('LEXIQUE_TYPE_TEXT', 2);    

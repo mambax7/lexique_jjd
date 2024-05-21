@@ -37,7 +37,7 @@ $limit = Request::getInt('limit', $helper->getConfig('adminpager'));
 $GLOBALS['xoopsTpl']->assign('start', $start);
 $GLOBALS['xoopsTpl']->assign('limit', $limit);
 
-// JJDai : $start  et $limit ne serve à rien il n'y a qu'un seul lexique, mais pas envie de recoder la page 
+// JJDai : $start  et $limit ne serve Ã  rien il n'y a qu'un seul lexique, mais pas envie de recoder la page 
 
 switch ($op) {
 //     case 'new':

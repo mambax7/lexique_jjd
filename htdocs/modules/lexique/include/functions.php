@@ -229,7 +229,7 @@ function lexique_Filter($url, $type = '') {
 /**
  * Get the arr of type
  *
- * @param $typeId  0 = Lste des type / 1 = tableau de paramètre du type passé en paramètre 
+ * @param $typeId  0 = Lste des type / 1 = tableau de paramÃ¨tre du type passÃ© en paramÃ¨tre 
  * @return array
  */
 function lexiqueGetSeperatorsList()
@@ -243,13 +243,13 @@ function lexiqueGetSeperatorsList()
 /**
  * Get the arr of type
  *
- * @param $typeId  0 = Lste des type / 1 = tableau de paramètre du type passé en paramètre 
+ * @param $typeId  0 = Lste des type / 1 = tableau de paramÃ¨tre du type passÃ© en paramÃ¨tre 
  * @return array
  */
 function lexiqueGetTypePropertyArr_old($typeId = null, $dataArr = null)
 {
 /*
-- 0 = Numérique :  [décimales=0, min=0, max=0]
+- 0 = NumÃ©rique :  [dÃ©cimales=0, min=0, max=0]
 - 1 = Chaine :  [longueur, css]
 - 2 Texte :	 [lines]
 - 3 = Date : [format, css]
@@ -285,7 +285,7 @@ function lexiqueGetTypePropertyArr_old($typeId = null, $dataArr = null)
        if ($dataArr)   {
             foreach($arr AS $key=>$value){
                 if (isset($dataArr[$key])){
-                    //recuperer les valeurs de la propriété
+                    //recuperer les valeurs de la propriÃ©tÃ©
                    $arr[$key] = $dataArr[$key];
                 }
             }

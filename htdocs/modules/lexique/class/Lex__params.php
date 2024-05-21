@@ -192,7 +192,7 @@ class Lex__params extends \XoopsObject
         $inpWeight->setDescription(_AM_LEXIQUE_PARAM_WEIGHT_DESC);
         $form->addElement($inpWeight);
 
-/* est-ce utile dans cette version, utiliser plutot les permissions serait peut être plus judicieux
+/* est-ce utile dans cette version, utiliser plutot les permissions serait peut Ãªtre plus judicieux
         // Form Text lexBin_menus
         $lexBin_menus = $this->isNew() ? '65535' : $this->getVar('lex_bin_menus');
         $form->addElement(new \XoopsFormText(\_AM_LEXIQUE_PARAM_BIN_MENUS, 'lex_bin_menus', 20, 150, $lexBin_menus));
@@ -244,7 +244,7 @@ class Lex__params extends \XoopsObject
         $lexSeealso_modeSelect->addOption('2', \_AM_LEXIQUE_LIST_2);
         $lexSeealso_modeSelect->addOption('3', \_AM_LEXIQUE_LIST_3);
         $form->addElement($lexSeealso_modeSelect);
-        // Form Radio lexButtons_position   JJDai pas forcément utile, boutons a placcer à droite du nom systématiquement, a voir plus tard
+        // Form Radio lexButtons_position   JJDai pas forcÃ©ment utile, boutons a placcer Ã  droite du nom systÃ©matiquement, a voir plus tard
         $lexButtons_position = $this->isNew() ? 0 : $this->getVar('lex_buttons_position');
         $lexButtons_positionSelect = new \XoopsFormRadio(\_AM_LEXIQUE_PARAM_BUTTONS_POSITION, 'lex_buttons_position', $lexButtons_position);
         $lexButtons_positionSelect->addOption('0', \_NONE);
@@ -354,19 +354,19 @@ class Lex__params extends \XoopsObject
         $form->addElement($lexPos_Image_1Select);
 
 /*
-remplacé par une recherche systématique dans le name, shordef, description et selon les parametres des propertys
+remplacÃ© par une recherche systÃ©matique dans le name, shordef, description et selon les parametres des propertys
         // Form Text lexBin_search
         $lexBin_search = $this->isNew() ? '65535' : $this->getVar('lex_bin_search');
         $inpSearch = new \xoopsFormCheckboxBin(_AM_LEXIQUE_PARAM_BIN_SEARCH, 'lex_bin_search', $lexBin_search);        
 
-        //todo : ajouter ici la liste des propriété autorisant la rexcherche
+        //todo : ajouter ici la liste des propriÃ©tÃ© autorisant la rexcherche
         $inpSearch->addOption(1, _AM_LEXIQUE_PARAM_BIN_SEARCH_NAME);
         $inpSearch->addOption(2, _AM_LEXIQUE_PARAM_BIN_SEARCH_SHORT_DEF);
         $inpSearch->addOption(4, _AM_LEXIQUE_PARAM_BIN_SEARCH_DEFINITION);
         $form->addElement($inpSearch);
 
-dans la version précédente cela permettai un affichage spécifique par groupe
-pas vraiment utile un définitive, remplacé par les parmission des propriétés
+dans la version prÃ©cÃ©dente cela permettai un affichage spÃ©cifique par groupe
+pas vraiment utile un dÃ©finitive, remplacÃ© par les parmission des propriÃ©tÃ©s
         // Form Text lexBin_show
         $lexBin_show = $this->isNew() ? '65535' : $this->getVar('lex_bin_show');        
         $form->addElement(new \XoopsFormText(\_AM_LEXIQUE_PARAM_BIN_SHOW, 'lex_bin_show', 50, 255, $lexBin_show));

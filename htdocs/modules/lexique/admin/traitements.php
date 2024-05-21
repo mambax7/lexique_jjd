@@ -96,7 +96,7 @@ switch ($op){
     JJD\FSO\executeSqlFile($f);   
     
     //exit;("Requetes=>execute");  
-    $msg = "Requêtes reconstruites";
+    $msg = "RequÃªtes reconstruites";
   redirect_header('index.php', 3, $msg);
   
     break;

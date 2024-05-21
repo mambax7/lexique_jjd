@@ -43,8 +43,8 @@ class FileUploader
     public $maxSize = 4000000;   //4mo par defaut
     public $uniqueName = true;
     public $prefix = '';
-    public $casseExt = -1; // -1:minuscule +1:majuscule 0: inchangé
-    public $casseName = -1; // -1:minuscule +1:majuscule 0: inchangé
+    public $casseExt = -1; // -1:minuscule +1:majuscule 0: inchangÃ©
+    public $casseName = -1; // -1:minuscule +1:majuscule 0: inchangÃ©
     public $folder = '';    
     public $path = '';    
     public $sepPrefix = '-';    
@@ -114,8 +114,8 @@ class FileUploader
             case self::UPLOADER_ERR_NONE:             return "{$error} - Aucune erreur"; break;
             case self::UPLOADER_ERR_EMPTY_NAME:       return "{$error} - Le nom du fichier est une chaine vide"; break;
             case self::UPLOADER_ERR_EXT_NOT_ALLOWED:  return "{$error} - L'extension n'est pas rise en compte"; break;
-            case self::UPLOADER_ERR_SIZE_OVER:        return "{$error} - La taille du fichier est supérieure à celle autorisée"; break;
-            case self::UPLOADER_ERR_FILE_EXIST:       return "{$error} - Le fichier existe déjà"; break;
+            case self::UPLOADER_ERR_SIZE_OVER:        return "{$error} - La taille du fichier est supÃ©rieure Ã  celle autorisÃ©e"; break;
+            case self::UPLOADER_ERR_FILE_EXIST:       return "{$error} - Le fichier existe dÃ©jÃ "; break;
             default :                                 return "{$error} - Erreur PHP Loader"; break;
         }
      }
@@ -172,7 +172,7 @@ class FileUploader
         //--------------------------------------------------------
         $prefix = ($this->prefix)  ? $this->prefix . $this->sepPrefix : '';
         if ($this->uniqueName)  {
-            //uniqid génère quelque chose comme ca : 5f586bf96dcd38.73540086
+            //uniqid gÃ©nÃ¨re quelque chose comme ca : 5f586bf96dcd38.73540086
             $newName = uniqid($prefix, true);
         }else{
             $newName = $prefix . $name;

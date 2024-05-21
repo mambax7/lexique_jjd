@@ -46,7 +46,7 @@ echoArray($_FILES, "<hr>===== _FILES =====<hr>");
 
 /*
 @ $pptvalSubmited array _post submitted
-@ $keyRoot : string, clé principale dans $_FILES 
+@ $keyRoot : string, clÃ© principale dans $_FILES 
              peut prendre deux valeur 'lex_images' ou 'lex_files'
 */
 function retraitement_de_files(&$pptvalSubmited, $keyRoot = 'lex_images'){
@@ -73,7 +73,7 @@ foreach ($_FILES[$keyRoot] AS $att=>$pptIdArr) {
 
 function save_values($termId){
 global $lex__propertysHandler, $lex__valuesHandler;
-        //**** enregistrement des valeurs des propriétés ***************
+        //**** enregistrement des valeurs des propriÃ©tÃ©s ***************
         $pptvalSubmited = Request::getArray('pptval');
         retraitement_de_files($pptvalSubmited, 'lex_images');
         retraitement_de_files($pptvalSubmited, 'lex_files');
@@ -106,7 +106,7 @@ echoArray($pptvalSubmited, "========= resultat ==================");
         case LEXIQUE_DTYPE_IMAGE: 
             $imgPath = "/uploads/lexique";
             if(isset($arr['delete_img'])){
-            //echoArray($arr['delete_img'],"===== fichier à supprimer");
+            //echoArray($arr['delete_img'],"===== fichier Ã  supprimer");
                 $lgRoot = strlen(XOOPS_URL . $imgPath);
                 $img2delete = array();
                 foreach($arr['delete_img'] AS $f=>$ok){
@@ -116,7 +116,7 @@ echoArray($pptvalSubmited, "========= resultat ==================");
                     $img2delete[] = $name;
                     unlink(XOOPS_ROOT_PATH . $imgPath . $name);
                 }
-            echoArray($img2delete,"===== fichier à supprimer");
+            echoArray($img2delete,"===== fichier Ã  supprimer");
             }
             $uploader = new FileUploader(null, null, false,"valId-{$valId}");  
             $uploader->setPath($imgPath); 

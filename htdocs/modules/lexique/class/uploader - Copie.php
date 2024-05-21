@@ -43,8 +43,8 @@ class FileUploader
     public $maxSize = 400000;
     public $uniqueName = true;
     public $prefix = '';
-    public $casseExt = -1; // -1:minuscule +1:majuscule 0: inchangé
-    public $casseName = -1; // -1:minuscule +1:majuscule 0: inchangé
+    public $casseExt = -1; // -1:minuscule +1:majuscule 0: inchangÃ©
+    public $casseName = -1; // -1:minuscule +1:majuscule 0: inchangÃ©
     public $folder = '';    
     /*********************************
      * 
@@ -113,7 +113,7 @@ class FileUploader
         }
         //--------------------------------------------------------
         if ($this->uniqueName)  {
-            //uniqid génère quelque chose comme ca : 5f586bf96dcd38.73540086
+            //uniqid gÃ©nÃ¨re quelque chose comme ca : 5f586bf96dcd38.73540086
             $newName = uniqid($this->prefix, true);
         }elseif($this->prefix){
             $newName = $this->prefix . '-' . $name;

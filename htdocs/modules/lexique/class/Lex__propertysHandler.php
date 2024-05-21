@@ -203,7 +203,7 @@ class Lex__propertysHandler extends Lex__adoHandler
     $sql = "UPDATE {$table} SET {$fldWeight} = (@rank:=@rank+{$step}) {$clauseWhere} {$clauseOrder};";    
     $result = $xoopsDB->queryf($sql);
     //----------------------------------------------------------
-    //affectation de la nouvelle à l'album selectionné
+    //affectation de la nouvelle Ã  l'album selectionnÃ©
    // $enrObj->setVar($fldWeight, );
     //$this->insert($enrObj);
      $sql = "UPDATE {$table} SET {$newValue} WHERE {$fldId}={$sourceId}"; 
